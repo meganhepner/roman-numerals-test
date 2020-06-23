@@ -1,4 +1,4 @@
-import { reverseNumber } from './../src/main.js';
+import { reverseNumber } from './../src/roman-numerals.js';
 
 describe('reverseNumber', () => {
   test ('should correctly reverse a number', ()=> {
