@@ -91,7 +91,7 @@ export const convertThousands = function(number){
   } 
 }
 
-const convertNumbersToRoman = function(number){
+export const convertNumbersToRoman = function(number){
   const arrayOfNumbers = reverseNumber(number); //[6, 0, 1]
   let arrayOfRoman =[];
   for(let index = 0; index < arrayOfNumbers.length; index++){
@@ -110,7 +110,7 @@ const convertNumbersToRoman = function(number){
   return arrayOfRoman;
 }
 
-const createRomanNumeralsString = function(romanArray){
+export const createRomanNumeralsString = function(romanArray){
   let answer = "";
   for (let index = romanArray.length-1; index >=0; index--){
     answer += romanArray[index];
