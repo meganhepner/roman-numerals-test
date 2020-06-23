@@ -1,4 +1,4 @@
-import { reverseNumber, convertOnes, convertTens, convertHundreds, convertThousands, inputInvalid } from './../src/roman-numerals.js';
+import { reverseNumber, convertOnes, convertTens, convertHundreds, convertThousands, inputInvalid, convertNumbersToRoman, createRomanNumeralsString} from './../src/roman-numerals.js';
 
 describe('inputInvalid', () => {
   test ('should return true if the input is invalid', () => {
@@ -41,5 +41,22 @@ describe('convertThousands', () => {
     expect(convertThousands(number)).toEqual("MMM");
   });
 });
+
+describe('convertNumbersToRoman', () => {
+  test ('converts the number to an array of roman numerals', () => {
+    const number = 1234;
+    expect(convertNumbersToRoman(number)).toEqual(["IV", "XXX", "CC", "M"]);
+  });
+});
+
+describe('createRomanNumeralsString', () => {
+  test ('reverses the order of the array and pushes it into a string', () => {
+    const number = ["IV", "XXX", "CC", "M"];
+    expect(createRomanNumeralsString(number)).toEqual("MCCXXXIV");
+  });
+});
+
+
+
 
 
