@@ -2,7 +2,7 @@ import './styles.css';
 import $ from 'jquery';
 
 //business logic
-const reverseNumber = function(number){
+export const reverseNumber = function(number){
   let result=[];
   while(number > 0){
     let remainder = number%10;
