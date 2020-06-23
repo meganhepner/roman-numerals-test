@@ -1,24 +1,26 @@
-# Roman Numeral Converter
+# Roman Numeral Test Practice
 
-#### _{Converts inputted numbers to roman numerals}, {06/11/2020}_
+#### _{Converts inputted numbers to roman numerals}, {06/23/2020}_
 
-#### By **Evgeniya Chernaya**, **Jerrod Styrk**
+#### By **Evgeniya Chernaya**, **Megan Hepner**
 
 ## Description
 
-_{This application will take any given number and convert it into the appropriate roman numerals}_
+_{This application separates the user and business logic in the existing roman numeral files, adds webpack, and tests all the functions in
+the program with Jest.}_
 
 ## Setup/Installation Requirements
 
-* https://janecher.github.io/roman-numerals/index.html
 * Clone/download the repository
-* Click on index.html file and see the result in the browser
+* Type npm install in the terminal
+* Type npm run build
+* Type npm run start
 
 ## Specification
 
 | Behavior | Input | Output|
 |----------|-------|-------|
-| Takes User input and returns it | Text | Text |
+| Takes User input and returns i | Text | Text |
 | Checks if input is Correct(input must be interger number) | text | "Incorrect input, the number must be between 1 and 3,999" |
 | Check if input between 1 and 3,999 | 4000 | "Incorrect input, the number must be between 1 and 3,999" |
 | Create array with digits of input number in reverse order(so decimal corrisponds with same index every time) | 654 | [6,5,4] |
@@ -36,7 +38,7 @@ _{No known bugs}_
 ## Support and contact details
 
 * Evgeniya: evgenya.chernaya@gmail.com
-* Jerrod : jstyrk@citadel.edu
+* Megan: megan.hepner@gmail.com
 
 ## Technologies Used
 
@@ -44,10 +46,12 @@ _{No known bugs}_
   * CSS
   * JavaScript
   * JQuery
-  * Bootstrap
+  * Webpack
+  * Jest
+  
 
 ### License
 
 _This software is licensed under the MIT license_
 
-Copyright (c) 2020 **Evgeniya Chernaya**, **Jerrod Styrk**.
+Copyright (c) 2020 **Evgeniya Chernaya**, **Megan Hepner**.
