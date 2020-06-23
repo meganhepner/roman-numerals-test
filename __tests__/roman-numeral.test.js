@@ -1,5 +1,11 @@
-import { reverseNumber, convertOnes, convertTens, convertHundreds, convertThousands } from './../src/roman-numerals.js';
+import { reverseNumber, convertOnes, convertTens, convertHundreds, convertThousands, inputInvalid } from './../src/roman-numerals.js';
 
+describe('inputInvalid', () => {
+  test ('should return true if the input is invalid', () => {
+    const number = 5000;
+    expect(inputInvalid(number)).toEqual(true);
+  });
+});
 
 describe('reverseNumber', () => {
   test ('should correctly reverse a number', ()=> {
