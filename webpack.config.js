@@ -18,7 +18,7 @@ module.exports = {
     new UglifyJsPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Ping Pong',
+      title: 'Numbers to Roman Numerals',
       template: './src/index.html',
       inject: 'body'
     })
