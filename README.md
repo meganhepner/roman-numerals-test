@@ -1,8 +1,8 @@
 # Roman Numeral Converter
 
-#### _{Converts inputted numbers to roman numerals}, {06/11/2020}_
+#### _{Converts inputted numbers to roman numerals}, {06/23/2020}_
 
-#### By **Evgeniya Chernaya**, **Jerrod Styrk**
+#### By **Evgeniya Chernaya**, **Megan Hepner**
 
 ## Description
 
@@ -36,7 +36,7 @@ _{No known bugs}_
 ## Support and contact details
 
 * Evgeniya: evgenya.chernaya@gmail.com
-* Jerrod : jstyrk@citadel.edu
+* Megan: megan.hepner@gmail.com
 
 ## Technologies Used
 
@@ -44,7 +44,7 @@ _{No known bugs}_
   * CSS
   * JavaScript
   * JQuery
-  * Bootstrap
+
 
 ### License
 
